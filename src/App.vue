@@ -1,10 +1,15 @@
 <script>
-import helloWorld from './components/HelloWorld.vue'
+import helloWorld from './components/HelloWorld.vue';
+import prova from './components/prova.vue'
+
 
 export default {
   components: {
-    helloWorld
+    helloWorld,
+
+    prova
   }
+
 }
 </script>
 
@@ -12,6 +17,7 @@ export default {
 <template lang="">
   <div>
     <helloWorld />
+    <prova />
   </div>
 </template>
 <style lang="">
